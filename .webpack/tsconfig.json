@@ -1,0 +1,14 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "module": "commonjs",
+    "resolveJsonModule": true,
+    "outDir": "../dist/",
+    "target": "es5"
+  },
+  "files": [
+    "webpack.common.ts",
+    "webpack.dev.ts",
+    "webpack.prod.ts"
+  ]
+}
